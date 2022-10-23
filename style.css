@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&family=Roboto&display=swap');
+
+.container{
+    position: fixed;
+    width: 550px;
+    height: 550px;
+    left: 62px;
+    top: 64px;
+    color: #fff;
+    background: #1F2937;
+}
+.sub-con{
+    margin-left: 52px;
+    margin-top: 118px;
+    margin-right: 52px;
+}
+.sub-con h1{
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: -0.025em;
+    line-height: 40px;
+}
+p:not(.para){
+ font-size: 15px;
+ color: #10B981;
+ font-family: Arial, Helvetica, sans-serif;
+ font-weight: bold;
+}
+hr{
+    position: absolute;
+width: 446px;
+height: 0px;
+left: 52px;
+top: 364px;
+
+border: 1px solid #2F3E53;
+}
+.boxes{
+    position: absolute;
+    width: 211px;
+    height: 39px;
+    background: #273549;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.b-1{
+    left: 52px;
+    top: 399px;
+}
+.b-2{
+    left: 287px;
+    top: 399px;
+}
+.b-3{
+    left: 52px;
+    top: 465px;
+}
+.b-4{
+    left: 287px;
+    top: 465px;
+}
+button{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 9px 17px 9px 15px;
+    position: absolute;
+    width: 223px;
+    height: 42px;
+    left: 52px;
+    top: 279px;
+    background: #10B981;
+    /* shadow/sm */
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    border: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    cursor: pointer;
+}
